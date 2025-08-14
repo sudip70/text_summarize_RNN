@@ -2,10 +2,9 @@ streamlit
 pandas
 nltk
 np
-TfidfVectorizer
-load
+scikit-learn
+tensorflow.keras.models
+tensorflow.keras.metrics
 joblib
-load_model
-MeanSquaredError
 json
 logging
