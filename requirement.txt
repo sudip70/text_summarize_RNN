@@ -1,0 +1,12 @@
+streamlit
+pandas
+nltk
+re
+np
+TfidfVectorizer
+load
+joblib
+load_model
+MeanSquaredError
+json
+logging
