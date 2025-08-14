@@ -10,6 +10,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.metrics import MeanSquaredError
 import json
 import logging
+import warnings
+warnings.filterwarnings("ignore")
 
 #Ensuring set_page_config is the first Streamlit command
 st.set_page_config(page_title="Text Summarization App", layout="wide", initial_sidebar_state="expanded")
@@ -251,4 +253,5 @@ if st.button("Generate Summary"):
 
 #Footer for the application
 st.markdown("---")
+
 st.caption("Built with Streamlit | Models trained on clipped_dataset.csv | Metrics loaded from summarization_combined_results.json")
