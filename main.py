@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, filename='summarization_combined.log')
 logger = logging.getLogger(__name__)
 
 #Downloading NLTK data if needed
-nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab')
 
 #Loading the saved vectorizer, models, and results and caching for faster access
 @st.cache_resource
@@ -255,3 +255,4 @@ if st.button("Generate Summary"):
 st.markdown("---")
 
 st.caption("Built with Streamlit | Models trained on clipped_dataset.csv | Metrics loaded from summarization_combined_results.json")
+
