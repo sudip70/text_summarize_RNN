@@ -56,8 +56,23 @@ The project uses the [CNN/DailyMail dataset](https://www.kaggle.com/datasets/gow
 
 ## Model Overview & Performance
 
+| Model                      | Overview                                                                 | Performance |
+|----------------------------|---------------------------------------------------------------------------|-------------|
+| **LSTM (RNN)**             | Deep learning model that captures sequential dependencies in text data. | High        |
+| **Logistic Regression**    | Simple, interpretable classifier used for text classification tasks.    | Medium      |
+| **Linear Regression**      | Predicts summary score/length based on extracted features.               | Low-Medium  |
+| **Decision Tree Classifier** | Rule-based model splitting features to classify sentences.              | Medium      |
+| **Decision Tree Regressor**  | Regression-based tree predicting importance scores for sentences.       | Medium      |
+
+
 ## Team
 
+| Name                     | Duties                                                                 |
+|--------------------------|-------------------------------------------------------------------------|
+| **Arman Verma**          | Deep learning model that captures sequential dependencies in text data. |
+| **Hargun Singh Lamba**   | Simple, interpretable classifier used for text classification tasks.    |
+| **Pooja Shrestha**       | Predicts summary score/length based on extracted features.               |
+| **Sudip Shrestha**       | Rule-based model splitting features to classify sentences.              |
 
 
 
