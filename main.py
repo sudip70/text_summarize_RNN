@@ -178,7 +178,7 @@ with st.sidebar:
     st.header("⚙️ Settings")
     model_choice = st.selectbox(
         "Select Model",
-        [ "Decision Tree Classifier", "Linear Regression", "Logistic Regression", "Decision Tree Regressor", "LSTM Regressor"],
+        [  "LSTM Regressor", "Linear Regression", "Logistic Regression", "Decision Tree Regressor", "Decision Tree Classifier"],
         help="Choose a model to generate the summary."
     )
     k_sentences = st.slider(
@@ -255,5 +255,6 @@ if st.button("Generate Summary"):
 st.markdown("---")
 
 st.caption("Built with Streamlit | Models trained on clipped_dataset.csv | Metrics loaded from summarization_combined_results.json")
+
 
 
