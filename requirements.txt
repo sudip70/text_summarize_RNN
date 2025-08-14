@@ -1,1 +1,7 @@
-streamlit pandas nltk numpy scikit-learn joblib tensorflow
+streamlit 
+pandas 
+nltk 
+numpy 
+scikit-learn 
+joblib 
+tensorflow
