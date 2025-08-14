@@ -29,9 +29,9 @@ def load_components():
     try:
         #Loading models and vectorizer
         vectorizer = load('tfidf_vectorizer.pkl')
-        clf_lr = load('logistic_regression_model.pkl')
         clf_dt = load('decision_tree_classifier_model.pkl')
         reg_lr = load('linear_regression_model.pkl')
+        clf_lr = load('logistic_regression_model.pkl')
         reg_dt = load('decision_tree_regressor_model.pkl')
         
         #Loading LSTM model with custom objects to handle 'mse' metric
@@ -47,7 +47,7 @@ def load_components():
         logger.error(f"Error loading components: {str(e)}")
         return None, None, None, None, None, None, None
 
-vectorizer, clf_lr, clf_dt, reg_lr, reg_dt, model_lstm_reg, results = load_components()
+vectorizer, clf_dt, reg_lr, clf_lr, reg_dt, model_lstm_reg, results = load_components()
 
 #Cleaning text
 def clean_text(text):
@@ -178,7 +178,7 @@ with st.sidebar:
     st.header("⚙️ Settings")
     model_choice = st.selectbox(
         "Select Model",
-        ["Logistic Regression", "Decision Tree Classifier", "Linear Regression", "Decision Tree Regressor", "LSTM Regressor"],
+        [ "Decision Tree Classifier", "Linear Regression", "Logistic Regression", "Decision Tree Regressor", "LSTM Regressor"],
         help="Choose a model to generate the summary."
     )
     k_sentences = st.slider(
@@ -255,4 +255,5 @@ if st.button("Generate Summary"):
 st.markdown("---")
 
 st.caption("Built with Streamlit | Models trained on clipped_dataset.csv | Metrics loaded from summarization_combined_results.json")
+
 
