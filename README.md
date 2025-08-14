@@ -30,7 +30,7 @@ The project uses the [CNN/DailyMail dataset](https://www.kaggle.com/datasets/gow
 ## Installation / Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sudip70/text_summarize_RNN.git
    cd article-summary
 
 2. Install the required dependencies:
