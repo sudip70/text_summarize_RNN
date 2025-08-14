@@ -65,14 +65,17 @@ The project uses the [CNN/DailyMail dataset](https://www.kaggle.com/datasets/gow
 | **Decision Tree Regressor**  | Regression-based tree predicting importance scores for sentences.       | Medium      |
 
 
-## Team
+## Meet the Team
 
 | Name                     | Duties                                                                 |
 |--------------------------|-------------------------------------------------------------------------|
-| **Arman Verma**          | Deep learning model that captures sequential dependencies in text data. |
-| **Hargun Singh Lamba**   | Simple, interpretable classifier used for text classification tasks.    |
-| **Pooja Shrestha**       | Predicts summary score/length based on extracted features.               |
-| **Sudip Shrestha**       | Rule-based model splitting features to classify sentences.              |
+| **Arman Verma**          | Data Combine & Logistic Regression                                      |
+| **Hargun Singh Lamba**   | UI & Decision Tree Models                                              |
+| **Pooja Shrestha**       | Linear Regression Model & EDAs                                         |
+| **Sudip Shrestha**       | LSTM Model, Merger & Deployment                                        |
+
+## License
+This project is licensed under the MIT License.
 
 
 
