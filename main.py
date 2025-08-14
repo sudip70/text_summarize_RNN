@@ -254,7 +254,8 @@ if st.button("Generate Summary"):
 #Footer for the application
 st.markdown("---")
 
-st.caption("Built with Streamlit | Models trained on clipped_dataset.csv | Metrics loaded from summarization_combined_results.json")
+st.caption("Built with Streamlit | Models trained on CNN News Data | Metrics loaded from summarization_combined_results.json")
+
 
 
 
