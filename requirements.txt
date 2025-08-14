@@ -1,10 +1,9 @@
 streamlit
 pandas
 nltk
-np
+numpy
 scikit-learn
-tensorflow.keras.models
-tensorflow.keras.metrics
+tensorflow
 joblib
 json
 logging
