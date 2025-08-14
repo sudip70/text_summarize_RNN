@@ -43,7 +43,7 @@ The project uses the [CNN/DailyMail dataset](https://www.kaggle.com/datasets/gow
 
 5. Run the application:
    ```bash
-   bashstreamlit run main.py
+   streamlit run main.py
 
 ## How to Use
 1. Run the main.py file on your local machine with
